@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\maurilio.BREDAS\\Downloads\\NhibernateStarted-20201103T133426Z-001\\NhibernateStarted\\NhibernateStarted\\NhibernateStarted.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\maurilio.BREDAS\\Downloads\\NhibernateStarted-20201103T133426Z-001\\NhibernateStarted\\NhibernateStartedDomain\\NhibernateStartedDomain.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\maurilio.BREDAS\\Downloads\\NhibernateStarted-20201103T133426Z-001\\NhibernateStarted\\NhibernateStartedDomain\\NhibernateStartedDomain.csproj",
+        "projectName": "NhibernateStartedDomain",
+        "projectPath": "C:\\Users\\maurilio.BREDAS\\Downloads\\NhibernateStarted-20201103T133426Z-001\\NhibernateStarted\\NhibernateStartedDomain\\NhibernateStartedDomain.csproj"
+      },
+      "frameworks": {
+        "net462": {}
+      }
+    },
+    "C:\\Users\\maurilio.BREDAS\\Downloads\\NhibernateStarted-20201103T133426Z-001\\NhibernateStarted\\NhibernateStarted\\NhibernateStarted.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\maurilio.BREDAS\\Downloads\\NhibernateStarted-20201103T133426Z-001\\NhibernateStarted\\NhibernateStarted\\NhibernateStarted.csproj",
+        "projectName": "NhibernateStarted",
+        "projectPath": "C:\\Users\\maurilio.BREDAS\\Downloads\\NhibernateStarted-20201103T133426Z-001\\NhibernateStarted\\NhibernateStarted\\NhibernateStarted.csproj",
+        "packagesPath": "C:\\Users\\maurilio.BREDAS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maurilio.BREDAS\\Downloads\\NhibernateStarted-20201103T133426Z-001\\NhibernateStarted\\NhibernateStarted\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\maurilio.BREDAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net462"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/boletonetcorebuild/api/v3/index.json": {},
+          "https://www.myget.org/F/bredas/auth/7881a7eb-d10e-4f87-bb74-647d1bcbb99e/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net462": {
+            "projectReferences": {
+              "C:\\Users\\maurilio.BREDAS\\Downloads\\NhibernateStarted-20201103T133426Z-001\\NhibernateStarted\\NhibernateStartedDomain\\NhibernateStartedDomain.csproj": {
+                "projectPath": "C:\\Users\\maurilio.BREDAS\\Downloads\\NhibernateStarted-20201103T133426Z-001\\NhibernateStarted\\NhibernateStartedDomain\\NhibernateStartedDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net462": {
+          "dependencies": {
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "NHibernate": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[3.2.7, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
